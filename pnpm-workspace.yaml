@@ -1,0 +1,8 @@
+# pnpm-workspace.yaml
+packages:
+  - "packages/*" # Leave your existing workspaces config intact if it exists
+
+allowBuilds:
+  bcrypt: true
+  esbuild: true
+  sharp: true
